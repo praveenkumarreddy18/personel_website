@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G Praveen Kumar reddy(PORTFOLIO)</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0d8c6deebc.js" crossorigin="anonymous"></script>
+</head>
+ 
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="D:\vs code\webpages\portfolio\webicon.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>
+                </p>
+                <h1><span>PRAVEEN KUMAR REDDY</span></h1>
+                <h1>
+                    
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!---About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="D:\vs code\webpages\portfolio\pro.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Me
+                    </h1>
+                    <p>I'm <bold>praveen</bold> , a recent Computer Science graduate with a strong passion for technology and innovation. 
+                        I specialize in full-stack development, with hands-on experience in both frontend and backend technologies. My expertise includes
+                         working with modern web frameworks, databases, and version control systems like Git and GitHub.
+
+                        <p> I am always eager to learn new tools, solve challenging problems, and contribute to exciting projects.
+                          My goal is to apply my skills to create seamless user experiences and efficient solutions, continuously growing 
+                          in the field of software development.</p>
+
+
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Programming Languages And Database
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Certifications</p>
+
+                        <p class="tab-links" onclick="opentab('software')">Software</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>JAVA</span><br>
+                            </li>
+                            <li>
+                                <span>C Programming</span><br>
+                            </li>
+                            <li>
+                                <span>python</span><br>
+                            </li>
+                            <li>
+                                <span>JavaScript</span><br>
+                            </li>
+                            <li>
+                                <span>MYSQL</span><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>ANNAMACHARYA INSTITUTE OF TECHNOLOGY AND SCIENCES,RAJAMPET </span><br>Bachelor of Engineering
+                                In Computer Science and Engineering(2024)<br>CGPA: 8.32
+
+                            </li>
+                            <li>
+                                <span>Sri Chaitanya Junior College ,kurnool</span><br>Intermediate
+                                (mpc)<br>2020<br>CGPA: 9.67
+                            </li>
+                            <li>
+                                <span>Zilla Parishat High School,Godisalapalli</span><br>SSC (2018)<br>CGPA: 9.3
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- this is for work exoerience-->
+                    
+
+
+                    <!-- this is for work education-->
+                    <div class="tab-contents" id="software">
+                        <ul>
+
+                            <li>
+                                <span>POWERPOINT</span>
+                            </li>
+                            <li>
+                                <span>VS CODE</span>
+                            </li>
+                            <li>
+                                <span>Eclipse</span>
+                            </li>
+                            <li>
+                                <span>git/github</span>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!--Skills------------------------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">
+                SKILLS
+            </h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>FRONT-END DEVELOPMENT</h2>
+                    <p>HTML ,CSS , JAVASCRIPT AND REACT</p>
+                    <a href="https://www.w3schools.com/howto/howto_blog_become_frontenddev.asp">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code-compare"></i>
+                    <h2>BACK-END DEVELOPMENT</h2>
+                    <p>JAVA ,SPRING AND MYSQL </p>
+                    <a href="https://www.w3schools.com/java/">Learn more</a>
+                </div>
+               
+               
+            </div>
+        </div>
+    </div>
+    
+    <!-------------PORTFOLIO--------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">
+                MY PROJECTS
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="D:\vs code\webpages\portfolio\project.jpg">
+                    <div class="layer">
+                        <h2>Leaf Disease Detection Using Deep Learning</h2>
+                        <p>Leaf disease detection using deep learning involves
+                             training neural networks to accurately 
+                            identify plant diseases from leaf images. 
+                            By leveraging techniques like convolutional neural 
+                            networks (CNNs), the system can automatically detect
+                             and classify diseases, improving agricultural
+                              productivity and reducing the need for manual inspection.</p>
+                        <a href="https://github.com/praveenkumarreddy18/leaf-disease-detection"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!----------------Cintact----------------------------------->
+        <div id="contact">
+
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> praveenreddy202002@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-phone-volume"></i>
+                            8897407096
+                        </p>
+                        <div class="social-icons">
+                            
+                            <a href="https://www.linkedin.com/in/praveenreddy4/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+
+
+                        </div>
+                       
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p><i class="fa-solid fa-heart"></i> THANK YOU</p>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+
+
+
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/home/projects/1hyyUX-5Srk_iwduzfgjJ0YTZV8obSz3p4HOzsTByaIFaJgN1iVhqFYXE/edit'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML="Message Sent Successfully"
+                        setTimeout(function(){
+                            msg.innerHTML=""
+                        },1000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+</body>
+
+</html>
+0
